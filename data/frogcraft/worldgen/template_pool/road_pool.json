@@ -1,0 +1,15 @@
+{
+    "name": "frogcraft:cherry_village/road_pool",
+    "fallback":"minecraft:empty",
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "processors": "minecraft:empty",
+                "location": "frogcraft:cherry_village/roads",
+                "projection": "terrain_matching"
+            },
+            "weight": 1
+        }
+    ]
+}

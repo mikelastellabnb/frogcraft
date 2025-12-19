@@ -1,0 +1,17 @@
+YourDataPackName/
+├── pack.mcmeta
+├── pack.png (optional)
+└── data/
+    ├── minecraft/ (for modifying vanilla files)
+    │   └── tags/
+    │       └── functions/
+    │           ├── load.json
+    │           └── tick.json
+    └── your_namespace/ (your custom content)
+        ├── functions/
+        │   ├── load.mcfunction
+        │<bos> tick.mcfunction
+        ├── advancements/
+        ├── loot_tables/
+        ├── recipes/
+        └── structures/
