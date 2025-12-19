@@ -6,7 +6,61 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "processors": "minecraft:empty",
-                "location": "frogcraft:cherry_village/roads",
+                "location": "frogcraft:cherry_village/roads/intersection",
+                "projection": "terrain_matching"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "processors": "minecraft:empty",
+                "location": "frogcraft:cherry_village/roads/left_turn",
+                "projection": "terrain_matching"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "processors": "minecraft:empty",
+                "location": "frogcraft:cherry_village/roads/market",
+                "projection": "terrain_matching"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "processors": "minecraft:empty",
+                "location": "frogcraft:cherry_village/roads/right_turn",
+                "projection": "terrain_matching"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "processors": "minecraft:empty",
+                "location": "frogcraft:cherry_village/roads/right_turn_build",
+                "projection": "terrain_matching"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "processors": "minecraft:empty",
+                "location": "frogcraft:cherry_village/roads/straight_build",
+                "projection": "terrain_matching"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "processors": "minecraft:empty",
+                "location": "frogcraft:cherry_village/roads/straight",
                 "projection": "terrain_matching"
             },
             "weight": 1
