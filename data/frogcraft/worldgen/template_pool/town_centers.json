@@ -4,7 +4,17 @@
         {
             "element":{
                 "element_type": "minecraft:legacy_single_pool_element",
-                "location": "empty",
+                "location": "frogcraft:cherry_village/town_centers/well",
+                "processors": "minecraft:mossify_10_percent",
+                "projection": "rigid"
+
+            },
+            "weight": 10
+        },
+        {
+            "element":{
+                "element_type": "minecraft:legacy_single_pool_element",
+                "location": "frogcraft:cherry_village/town_centers/temple",
                 "processors": "minecraft:mossify_10_percent",
                 "projection": "rigid"
 

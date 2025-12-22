@@ -5,18 +5,18 @@
             {
                 "input_predicate":  {
                     "predicate_type": "minecraft:block_match",
-                    "block": "minecraft:netherite_block"
+                    "block": "minecraft:ancient_debris"
                 },
                 "output_state": {
                     "Name": "minecraft:chest"
                 },
                 "block_entity_modifier": {
                     "type": "minecraft:append_loot",
-                    "loot_table": "minecraft:chests/village/village_temple"
+                    "loot_table": "minecraft:chests/village/village_plains_house"
                 },
                 "location_predicate":{
                     "predicate_type": "minecraft:random_block_match",
-                    "block": "minecraft:netherite_block",
+                    "block": "minecraft:ancient_debris",
                     "probability": 0.4
                 }
 
@@ -24,14 +24,14 @@
             {
                 "input_predicate":  {
                     "predicate_type": "minecraft:block_match",
-                    "block": "minecraft:netherite_block"
+                    "block": "minecraft:ancient_debris"
                 },
                 "output_state": {
                     "Name": "minecraft:air"
                 },
                 "location_predicate":{
                     "predicate_type": "minecraft:block_match",
-                    "block": "minecraft:netherite_block"
+                    "block": "minecraft:ancient_debris"
                 }
 
             }
