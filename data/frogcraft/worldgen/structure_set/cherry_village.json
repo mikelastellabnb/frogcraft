@@ -2,21 +2,15 @@
     "structures": [
         {
             "structure": "frogcraft:cherry_village",
-            "weight": 10
+            "weight": 1
         }
     ],
     "placement": 
     {
         "salt": 6742069,
-        "type": "minecraft:concentric_rings",
-        "preferred_biomes": "minecraft:cherry_grove",
-        "exclusion_zone": {
-            "chunk_count": 1,
-            "other_set": "villages"
-        },
-        "spread": 12,
-        "distance": 12,
-        "count": 1
+        "type": "minecraft:random_spread",
+        "spacing": 24,
+        "separation":8 
     }
     
 }
