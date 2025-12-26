@@ -83,7 +83,7 @@
             {
                 "input_predicate":  {
                     "predicate_type": "minecraft:block_match",
-                    "block": "minecraft:black_concrete"
+                    "block": "minecraft:white_concrete"
                 },
                 "output_state": {
                     "Name": "minecraft:chest"
@@ -94,7 +94,7 @@
                 },
                 "location_predicate":{
                     "predicate_type": "minecraft:random_block_match",
-                    "block": "minecraft:black_concrete",
+                    "block": "minecraft:white_concrete",
                     "probability": 0.4
                 }
 
@@ -102,14 +102,14 @@
             {
                 "input_predicate":  {
                     "predicate_type": "minecraft:block_match",
-                    "block": "minecraft:black_concrete"
+                    "block": "minecraft:white_concrete"
                 },
                 "output_state": {
                     "Name": "minecraft:air"
                 },
                 "location_predicate":{
                     "predicate_type": "minecraft:block_match",
-                    "block": "minecraft:black_concrete"
+                    "block": "minecraft:white_concrete"
                 }
 
             }
