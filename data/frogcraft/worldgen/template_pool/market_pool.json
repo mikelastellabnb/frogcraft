@@ -5,7 +5,7 @@
         {
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "processors": "minecraft:empty",
+                "processors": "frogcraft:cherry_village_processors",
                 "location": "frogcraft:cherry_village/buildings/market/stall",
                 "projection": "terrain_matching"
             },
@@ -13,7 +13,7 @@
         },{
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "processors": "minecraft:empty",
+                "processors": "frogcraft:cherry_village_processors",
                 "location": "frogcraft:cherry_village/buildings/market/stall2",
                 "projection": "terrain_matching"
             },
@@ -21,7 +21,7 @@
         },{
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "processors": "minecraft:empty",
+                "processors": "frogcraft:cherry_village_processors",
                 "location": "frogcraft:cherry_village/buildings/market/stall3",
                 "projection": "terrain_matching"
             },
@@ -29,7 +29,7 @@
         },{
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "processors": "minecraft:empty",
+                "processors": "frogcraft:cherry_village_processors",
                 "location": "frogcraft:cherry_village/buildings/market/stall4",
                 "projection": "terrain_matching"
             },
@@ -37,7 +37,7 @@
         },{
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "processors": "minecraft:empty",
+                "processors": "frogcraft:cherry_village_processors",
                 "location": "frogcraft:cherry_village/buildings/market/stall5",
                 "projection": "terrain_matching"
             },

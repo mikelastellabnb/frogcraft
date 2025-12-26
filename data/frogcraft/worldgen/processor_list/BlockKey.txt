@@ -4,7 +4,7 @@ Light Gray - Temple
 Gray - Armorer
 Brown - Cartographer
 Red - Toolsmith
-Orange
+Orange - baker
 Yellow
 Lime
 Green

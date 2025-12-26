@@ -5,7 +5,7 @@
         {
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "processors": "minecraft:empty",
+                "processors": "frogcraft:cherry_village_processors",
                 "location": "frogcraft:cherry_village/houses/mikes_mansion",
                 "projection": "rigid"
             },
@@ -14,7 +14,7 @@
         {
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "processors": "minecraft:empty",
+                "processors": "frogcraft:cherry_village_processors",
                 "location": "frogcraft:cherry_village/houses/justinsmansion",
                 "projection": "rigid"
             },
@@ -23,7 +23,7 @@
         {
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "processors": "frogcraft:random_chests",
+                "processors": "frogcraft:cherry_village_processors",
                 "location": "frogcraft:cherry_village/buildings/standard/library",
                 "projection": "rigid"
             },
@@ -32,7 +32,7 @@
         {
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "processors": "minecraft:empty",
+                "processors": "frogcraft:cherry_village_processors",
                 "location": "frogcraft:cherry_village/buildings/standard/blacksmith",
                 "projection": "rigid"
             },
