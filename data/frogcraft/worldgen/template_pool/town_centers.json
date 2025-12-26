@@ -3,7 +3,7 @@
     "elements":[
         {
             "element":{
-                "element_type": "minecraft:legacy_single_pool_element",
+                "element_type": "minecraft:single_pool_element",
                 "location": "frogcraft:cherry_village/town_centers/well",
                 "processors": "frogcraft:cherry_village_processors",
                 "projection": "rigid"
@@ -13,7 +13,7 @@
         },
         {
             "element":{
-                "element_type": "minecraft:legacy_single_pool_element",
+                "element_type": "minecraft:single_pool_element",
                 "location": "frogcraft:cherry_village/town_centers/temple",
                 "processors": "frogcraft:cherry_village_processors",
                 "projection": "rigid"
