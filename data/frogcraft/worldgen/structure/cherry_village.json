@@ -10,5 +10,6 @@
     "start_height": {
         "above_bottom": 150
     },
-    "project_start_to_heightmap": "WORLD_SURFACE"
+    "project_start_to_heightmap": "WORLD_SURFACE",
+    "use_expansion_hack": true
 }

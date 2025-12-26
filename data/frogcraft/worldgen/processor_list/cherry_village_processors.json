@@ -1,0 +1,310 @@
+{"processors":[
+    {
+        "processor_type": "minecraft:rule",
+        "rules": [
+            {
+                "input_predicate":  {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:light_gray_concrete"
+                },
+                "output_state": {
+                    "Name": "minecraft:chest"
+                },
+                "block_entity_modifier": {
+                    "type": "minecraft:append_loot",
+                    "loot_table": "minecraft:chests/village/village_temple"
+                },
+                "location_predicate":{
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:light_gray_concrete",
+                    "probability": 0.4
+                }
+
+            },
+            {
+                "input_predicate":  {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:light_gray_concrete"
+                },
+                "output_state": {
+                    "Name": "minecraft:air"
+                },
+                "location_predicate":{
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:light_gray_concrete"
+                }
+
+            }
+        ]
+
+    },
+    {
+        "processor_type": "minecraft:rule",
+        "rules": [
+            {
+                "input_predicate":  {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:black_concrete"
+                },
+                "output_state": {
+                    "Name": "minecraft:chest"
+                },
+                "block_entity_modifier": {
+                    "type": "minecraft:append_loot",
+                    "loot_table": "minecraft:chests/village/village_weaponsmith"
+                },
+                "location_predicate":{
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:black_concrete",
+                    "probability": 0.4
+                }
+
+            },
+            {
+                "input_predicate":  {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:black_concrete"
+                },
+                "output_state": {
+                    "Name": "minecraft:air"
+                },
+                "location_predicate":{
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:black_concrete"
+                }
+
+            }
+        ]
+
+    },
+    {
+        "processor_type": "minecraft:rule",
+        "rules": [
+            {
+                "input_predicate":  {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:black_concrete"
+                },
+                "output_state": {
+                    "Name": "minecraft:chest"
+                },
+                "block_entity_modifier": {
+                    "type": "minecraft:append_loot",
+                    "loot_table": "frogcraft:chests/librarian"
+                },
+                "location_predicate":{
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:black_concrete",
+                    "probability": 0.4
+                }
+
+            },
+            {
+                "input_predicate":  {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:black_concrete"
+                },
+                "output_state": {
+                    "Name": "minecraft:air"
+                },
+                "location_predicate":{
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:black_concrete"
+                }
+
+            }
+        ]
+
+    },{
+        "processor_type": "minecraft:rule",
+        "rules": [
+            {
+                "input_predicate":  {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:pink_concrete"
+                },
+                "output_state": {
+                    "Name": "minecraft:chest"
+                },
+                "block_entity_modifier": {
+                    "type": "minecraft:append_loot",
+                    "loot_table": "minecraft:chests/village/village_plains_house"
+                },
+                "location_predicate":{
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:pink_concrete",
+                    "probability": 0.4
+                }
+
+            },
+            {
+                "input_predicate":  {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:pink_concrete"
+                },
+                "output_state": {
+                    "Name": "minecraft:air"
+                },
+                "location_predicate":{
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:pink_concrete"
+                }
+
+            }
+        ]
+
+    },{
+        "processor_type": "minecraft:rule",
+        "rules": [
+            {
+                "input_predicate":  {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:black_concrete"
+                },
+                "output_state": {
+                    "Name": "minecraft:chest"
+                },
+                "block_entity_modifier": {
+                    "type": "minecraft:append_loot",
+                    "loot_table": "minecraft:chests/village/village_weaponsmith"
+                },
+                "location_predicate":{
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:black_concrete",
+                    "probability": 0.4
+                }
+
+            },
+            {
+                "input_predicate":  {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:black_concrete"
+                },
+                "output_state": {
+                    "Name": "minecraft:air"
+                },
+                "location_predicate":{
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:black_concrete"
+                }
+
+            }
+        ]
+
+    },{
+        "processor_type": "minecraft:rule",
+        "rules": [
+            {
+                "input_predicate":  {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:red_concrete"
+                },
+                "output_state": {
+                    "Name": "minecraft:chest"
+                },
+                "block_entity_modifier": {
+                    "type": "minecraft:append_loot",
+                    "loot_table": "minecraft:chests/village/village_toolsmith"
+                },
+                "location_predicate":{
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:red_concrete",
+                    "probability": 0.4
+                }
+
+            },
+            {
+                "input_predicate":  {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:red_concrete"
+                },
+                "output_state": {
+                    "Name": "minecraft:air"
+                },
+                "location_predicate":{
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:red_concrete"
+                }
+
+            }
+        ]
+
+    },{
+        "processor_type": "minecraft:rule",
+        "rules": [
+            {
+                "input_predicate":  {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:gray_concrete"
+                },
+                "output_state": {
+                    "Name": "minecraft:chest"
+                },
+                "block_entity_modifier": {
+                    "type": "minecraft:append_loot",
+                    "loot_table": "minecraft:chests/village/village_armorer"
+                },
+                "location_predicate":{
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:gray_concrete",
+                    "probability": 0.4
+                }
+
+            },
+            {
+                "input_predicate":  {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:gray_concrete"
+                },
+                "output_state": {
+                    "Name": "minecraft:air"
+                },
+                "location_predicate":{
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:gray_concrete"
+                }
+
+            }
+        ]
+
+    },{
+        "processor_type": "minecraft:rule",
+        "rules": [
+            {
+                "input_predicate":  {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:brown_concrete"
+                },
+                "output_state": {
+                    "Name": "minecraft:chest"
+                },
+                "block_entity_modifier": {
+                    "type": "minecraft:append_loot",
+                    "loot_table": "minecraft:chests/village/village_cartographer"
+                },
+                "location_predicate":{
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:brown_concrete",
+                    "probability": 0.4
+                }
+
+            },
+            {
+                "input_predicate":  {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:brown_concrete"
+                },
+                "output_state": {
+                    "Name": "minecraft:air"
+                },
+                "location_predicate":{
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:brown_concrete"
+                }
+
+            }
+        ]
+
+    }
+    
+]}

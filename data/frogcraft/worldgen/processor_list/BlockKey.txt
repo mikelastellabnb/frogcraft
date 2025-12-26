@@ -1,0 +1,16 @@
+Black - Blacksmith
+White - Librarian
+Light Gray - Temple
+Gray - Armorer
+Brown - Cartographer
+Red - Toolsmith
+Orange
+Yellow
+Lime
+Green
+Cyan
+Light Blue
+Blue
+Purple
+Magenta
+Pink - Houses

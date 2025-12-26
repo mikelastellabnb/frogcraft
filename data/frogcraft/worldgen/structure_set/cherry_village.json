@@ -5,10 +5,18 @@
             "weight": 10
         }
     ],
-    "placement": [
-        {
-            
-        }
-    ]
+    "placement": 
+    {
+        "salt": 6742069,
+        "type": "minecraft:concentric_rings",
+        "preferred_biomes": "minecraft:cherry_grove",
+        "exclusion_zone": {
+            "chunk_count": 1,
+            "other_set": "villages"
+        },
+        "spread": 12,
+        "distance": 12,
+        "count": 1
+    }
     
 }
